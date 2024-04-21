@@ -2,7 +2,7 @@
 
 Welcome to the Movie Director Portfolio project! This is a website template designed for movie directors to showcase their work and connect with their audience.
 
-![Movie Director Portfolio](demo.png)
+![Movie Director Portfolio](http://127.0.0.1:5500/?name=sagar+sob&email=sobsagar05%40gmail.com&message=what+up%3F#contact)
 
 ## Features
 
