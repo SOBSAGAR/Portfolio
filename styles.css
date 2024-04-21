@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #8d8888;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #030303;
+  }
+  
+  /* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ff7f00;
+  }
+  
+  
+  /* Hero Section */
+  .hero {
+    padding: 100px 0;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-description {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* About Section */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-image {
+    max-width: 300px;
+    margin-top: 40px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .about-subtitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  /* Contact Section */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff7f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #e66000;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  

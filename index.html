@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Director Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Cinematic Universe</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero" style="background-image: url('https://www.premiumbeat.com/blog/wp-content/uploads/2019/05/cinematic-cover.jpg');">
+      <div class="container">
+        <h1 class="hero-title">Welcome to Cinematic Universe</h1>
+        <p class="hero-description">Exploring the Boundaries of Cinematic Art</p>
+      </div>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3 class="about-subtitle">Meet the Visionary</h3>
+          <p>Welcome to my cinematic universe! I am <span class="highlight">Sagar Sob</span>, a storyteller, dreamer, and creator. With a passion for filmmaking, I dive deep into the art of storytelling to craft immersive and captivating cinematic experiences that resonate with audiences worldwide.</p>
+          <p>Driven by creativity and fueled by imagination, I explore the boundaries of cinematic art, pushing the limits to bring unique visions to life on the silver screen.</p>
+          <p>Join me on this journey as we embark on cinematic adventures, exploring new worlds, touching hearts, and inspiring minds along the way.</p>
+        </div>
+        <div class="about-image">
+          <img src="sagar.jpg" alt="Director Photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Portfolio</h2>
+      <div class="portfolio-grid">
+        <!-- Portfolio items will be dynamically added here by JavaScript -->
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-description">Ready to bring your cinematic vision to life? Let's connect!</p>
+      <form id="contact-form" class="contact-form">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" id="name" name="name" class="form-input" required>
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" id="email" name="email" class="form-input" required>
+        <label for="message" class="form-label">Your Message</label>
+        <textarea id="message" name="message" class="form-textarea" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Cinematic Universe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
